@@ -8,5 +8,5 @@ exports.pug = () => {
         // Your options in here.
       })
     )
-    .pipe(dest('./src/pages/*'));
+    .pipe(dest('./src/pages/*html'));
 };
